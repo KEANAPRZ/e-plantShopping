@@ -1,33 +1,78 @@
+/* Ensure the page takes up full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flexbox to center the content */
+.about-us-wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Take up full viewport height */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Container for About Us content */
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
-    text-align: justify;
-  }
-  
-  .about-us-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-us-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .about-us-content {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .plant_logo_right{
-    text-align: right;
+  width: 100%;
+  max-width: 1000px; /* Limit the width */
+  text-align: justify;
+  padding: 20px;
+  margin: 0 20px; /* Add margin for some spacing */
+  background-color: transparent; /* Remove background color */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Heading styling */
+.about-us-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Description styling */
+.about-us-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+  text-align: center; /* Center text */
+}
+
+/* Content block styling */
+.about-us-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Styling for logos */
+.plant_logo_right {
+  text-align: right;
+}
+
+.plant_logo_left {
+  text-align: left;
+}
+
+/* Responsive Design: Make sure content is responsive */
+@media (max-width: 768px) {
+  .about-us-container {
+    padding: 10px;
+    width: 100%; /* Make the container full-width on small screens */
   }
 
-  .plant_logo_left{
-    text-align: left;
+  .about-us-heading {
+    font-size: 28px; /* Adjust heading size for small screens */
   }
+
+  .about-us-description {
+    font-size: 16px; /* Adjust description size for small screens */
+  }
+
+  .about-us-content {
+    font-size: 16px; /* Adjust content size for small screens */
+  }
+}
