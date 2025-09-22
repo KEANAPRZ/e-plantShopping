@@ -36,4 +36,16 @@ For this final project, I created the front-end of a **Paradise Nursery** shoppi
 
 
 # HOME PAGE
-![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/136836ed0120783806c81a480bb89a8b4617c6fa/HomePage.png)
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/8fb9984a16ad603089b200c30d792504feb2abc8/HomePages.png)
+
+# ITEM LIST PAGE
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/8fb9984a16ad603089b200c30d792504feb2abc8/ItemListPage.png)
+
+# ADD TO CART
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/8fb9984a16ad603089b200c30d792504feb2abc8/AddToCartPage.png)
+
+# CART PAGE
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/8fb9984a16ad603089b200c30d792504feb2abc8/CartPage.png)
+
+# CHECK OUT PAGE
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/8fb9984a16ad603089b200c30d792504feb2abc8/CheckOutPage.png)
