@@ -34,11 +34,6 @@ For this final project, I created the front-end of a **Paradise Nursery** shoppi
 - **Vite** as the bundler.
 - **GitHub Pages** for deployment.
 
-## Setup Instructions
 
-Follow these steps to set up the project locally:
-
-### 1. Clone the repository:
-
-```bash
-git clone https://github.com/KEANAPRZ/e-plantShopping.git
+# HOME PAGE
+![image_alt](https://github.com/KEANAPRZ/e-plantShopping/blob/136836ed0120783806c81a480bb89a8b4617c6fa/HomePage.png)
